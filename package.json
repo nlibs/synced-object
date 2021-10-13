@@ -2,5 +2,5 @@
 	"name": "@nlibs/synced-object",
 	"version": "1.0.0",
 	"license": "MIT",
-	"main": "./synced-object.js",
+	"main": "./synced-object.js"
 }
