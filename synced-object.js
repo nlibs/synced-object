@@ -9,7 +9,7 @@ function sync(path, sync_interval, def)
 		sync_interval = 60 * 1000;
 
 	var object = {};
-	if (typeof def == "undefined")
+	if (typeof def != "undefined")
 		object = def;
 
 	if (FS.existsSync(path))
